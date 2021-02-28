@@ -1,5 +1,4 @@
-FROM java:8
-VOLUME /tmp
-ARG JAR_FILE
-COPY ${JAR_FILE} /app.jar
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+FROM openjdk:8
+ADD target/docker-spring-boot.jar docker-springboot.jar
+EXPOSE 8085
+ENTRYPOINT ["java","-jar","docker-spring-boot.jar"]
