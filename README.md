@@ -7,6 +7,7 @@ A spring boot application that serves as REST api which represents a simple Inve
 # Requirements
 -JDK 1.8 <br />
 -Maven 3.6 <br />
+-Spring boot 2.4.3 <br />
 -h2 console database <br />
 
 # Deploying the application locally
