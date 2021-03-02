@@ -21,3 +21,8 @@ All you need to do in order to deploy on docker is to build the project and copy
  
  either you copy the build file and move it to docker image or you can you `commit` the change (newly built jar) and `push` the change to Github and it will  
  automatically trigger docker to build as continuous deployment on docker for this repository is on.
+ 
+ #Testing API's
+ You can also test the deployed API's through `swagger` [swagger-ui](http://localhost:8080//swagger-ui/)
+ 
+ 
