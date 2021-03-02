@@ -5,16 +5,16 @@ A spring boot application that serves as REST api which represents a simple Inve
 > Mariam Abdelslam <mariam.abdelsalm@gmail.com>
 
 # Requirements
--JDK 1.8
--Maven 3.6
--h2 console database
+-JDK 1.8 <br />
+-Maven 3.6 <br />
+-h2 console database <br />
 
 # Deploying the application locally
- You can run this command to run the application locally 
+ You can run this command to run the application locally <br />
    ``` mvn spring-boot:run ```
    
 # Deploying application on Docker
-All you need to do in order to deploy on docker is to build the project and copy the compiled .jar to /build dierctory 
+All you need to do in order to deploy on docker is to build the project and copy the compiled .jar to /build dierctory  <br />
 
 ``` mvnw package && java -jar builds/spring-boot-inventory.jar ```
  
